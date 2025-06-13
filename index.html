@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>I Magnifici Undici</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="intro"><h1>I Magnifici Undici</h1></div>
+
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>I Magnifici Undici</h1>
+      <p>Lo Sbarco in Normandia visto da Robert Capa</p>
+    </div>
+    <div class="scroll-down">⌄</div>
+  </header>
+
+  <nav>
+    <div class="hamburger" id="hamburger"><div></div><div></div><div></div></div>
+    <div class="nav-links" id="navLinks">
+      <a href="#home"    class="nav-item active">Home</a>
+      <a href="#gallery" class="nav-item">Galleria</a>
+      <a href="#capa"    class="nav-item">Su Capa</a>
+      <a href="#negatives" class="nav-item">Negativi</a>
+      <a href="#timeline" class="nav-item">Timeline</a>
+    </div>
+  </nav>
+
+  <section class="container" id="home">
+    <h2>Benvenuto</h2>
+    <p>Benvenuto in “I Magnifici Undici”, il tributo alle undici fotografie sopravvissute dalla tragica sequenza dello sbarco in Normandia, scattate da Robert Capa il 6 giugno 1944.</p>
+    <p>In questo sito esplorerai ogni immagine nel dettaglio: dalla tensione delle onde che travolgono i soldati, alle texture ruvide degli ostacoli metallici, fino ai volti nascosti e alle ombre che raccontano il coraggio e la vulnerabilità umana.</p>
+    <p>Scorri verso il basso per immergerti nella <strong>Galleria</strong>, scopri il dietro le quinte di <strong>Su Capa</strong> e dei <strong>Negativi Perduti</strong>, e segui la <strong>Timeline Interattiva</strong> per comprendere il percorso storico di questi indimenticabili fotogrammi.</p>
+    <p>Ogni scatto è un frammento di storia, un invito a riflettere sul valore del sacrificio e sulla potenza del ricordo. Buona esplorazione.</p>
+  </section>
+
+  <section class="container" id="gallery">
+    <h2>Galleria</h2>
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img src="img/1.png" alt="Pellegrinaggio del coraggio" loading="lazy">
+        <figcaption>
+          <h3>Il Pellegrinaggio del Coraggio</h3>
+          <p class="short">Icona del coraggio durante lo sbarco.</p>
+          <button class="more"
+            data-full="A prima vista, la foto è un turbinio di forme indistinte: corpi in movimento, schizzi d’acqua, ostacoli metallici semisommersi. È in questa sfocatura che si cela la sua forza poetica. Il mare, solitamente fonte di vita, qui diventa barriera mortale: ogni passo è un rito di passaggio, da civili a combattenti. Capa non immortala eroi nitidi, ma ombre animate dal terrore e dal dovere, figure archetipiche che incarnano la tensione tra istinto di sopravvivenza e sacrificio collettivo. La grana pronunciata evoca un ricordo lontano, come se il passato si svelasse attraverso la nebbia del tempo. La vera bellezza sta nella vulnerabilità: uomini nudi di certezze che avanzano verso qualcosa di più grande di loro.">
+            Read more
+          </button>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="img/2.jpg" alt="Nuotatore nella tempesta" loading="lazy">
+        <figcaption>
+          <h3>L’Anima nel Caos Marino</h3>
+          <p class="short">Avanzata sfocata nell’acqua confusa.</p>
+          <button class="more"
+            data-full="La grana pronunciata e il mosso del negativo trasformano la scena in un sogno disturbante: un uomo sospeso fra terra e mare, immerso nella furia degli elementi e nella violenza della guerra. La sua figura emerge dal caos come un’isola di volontà, un atto di sfida contro la corrente che vorrebbe trascinarlo via. In questo frammento di tempo, leggiamo il paradosso dell’eroismo: non un gesto epico e nitido, ma un baluginio sfuggente, un’ombra che lotta per affermare la propria umanità. L’acqua diventa specchio e prigione, simbolo di rinascita e pericolo insieme, mentre lo sguardo del soldato ci ricorda che ogni passo verso l’obiettivo è un passo nell’ignoto, un sacrificio fatto di paura e speranza.">
+            Read more
+          </button>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="img/3.jpg" alt="Avanzata silenziosa" loading="lazy">
+        <figcaption>
+          <h3>Avanzata Silenziosa</h3>
+          <p class="short">Truppe emergono dalla barca in un paesaggio nebbioso.</p>
+          <button class="more"
+            data-full="La visione frontale dei mezzi d’assalto spalancati è un invito al sacrificio: uomini in marcia attraverso le onde, sagome scure contro un paesaggio incerto. Questo attimo sospeso, tra il click dell’otturatore e il passo successivo, diventa rito di passaggio tra ordine e caos, tra vita civile e epica collettiva. Le armature e le armi si mescolano al moto dell’acqua, trasformando la scena in un’allegoria di coraggio e vulnerabilità. Ogni sagoma incerta riflette la tensione dell’animo umano che, pur consapevole del pericolo, avanza mosso dalla speranza di libertà.">
+            Read more
+          </button>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="img/4.png" alt="Passaggio tra ostacoli" loading="lazy">
+        <figcaption>
+          <h3>Il Passo degli Ostacoli</h3>
+          <p class="short">Truppe avanzano tra spuntoni metallici.</p>
+          <button class="more"
+            data-full="In primo piano, uomini immersi fino alle ginocchia in un mare di fango e acciaio arrugginito. Gli ostacoli antibarriera – spuntoni di metallo che emergono dall’acqua come scheletri di un mostro marino – non sono solo difese nemiche, ma metafore delle sfide interiori. La coralità del gruppo, ciascuno intento al proprio passo, esprime il paradosso dell’eroismo: un atto profondamente personale compiuto insieme ad altri nella collettiva speranza di libertà. L’immagine ci parla di solidarietà e resistenza.">
+            Read more
+          </button>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="img/5.png" alt="Peso della speranza" loading="lazy">
+        <figcaption>
+          <h3>Il Peso della Speranza</h3>
+          <p class="short">Uomini gravati dall’equipaggiamento avanzano nella marea.</p>
+          <button class="more"
+            data-full="La fatica traspare in ogni passo: zaini pieni di munizioni, cuori colmi di incertezze. Questi soldati avanzano come desiderosi di un futuro diverso, eppure intrappolati in un presente di sabbia e acqua gelida. La superficie sfocata ricorda che la vera battaglia non è solo contro il nemico, ma contro la propria stanchezza e il dubbio: è la speranza, nascosta nel profondo di ogni uomo, a dare forza al corpo di resistere.">
+            Read more
+          </button>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="img/6.png" alt="Caos sfocato sulla spiaggia" loading="lazy">
+        <figcaption>
+          <h3>Il Caos Controllato</h3>
+          <p class="short">Mare, soldati e ostacoli si mescolano in un quadro indistinto.</p>
+          <button class="more"
+            data-full="La grana intensa e i contorni sfocati trasformano la scena in un quadro espressionista: uomini dispersi tra ostacoli metallici emergono come figure al confine del sogno e della realtà. Ogni soggetto sembra muoversi in un universo parallelo dove il tempo si dilata e la paura prende forma.">Read more</button>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="img/7.jpg" alt="Scheletri della liberazione" loading="lazy">
+        <figcaption>
+          <h3>Scheletri della Liberazione</h3>
+          <p class="short">Ostacoli antinave emergono da un mare tumultuoso.</p>
+          <button class="more"
+            data-full="Come ossa di un gigantesco leviatano marino, questi ostacoli testimoniano la volontà di fermare un’invasione. Le sagome dei soldati si muovono intorno a loro, riconoscendo che ogni pezzo di metallo arrugginito ha visto cadere vite. Sullo sfondo, i mezzi da sbarco si stagliano contro l’orizzonte, monito che la storia si costruisce passo dopo passo.">Read more</button>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="img/8.jpg" alt="Ombre in marcia" loading="lazy">
+        <figcaption>
+          <h3>Ombre in Marcia</h3>
+          <p class="short">Soldati dietro ostacoli, sagome furtive tra acqua e metallo.</p>
+          <button class="more"
+            data-full="In questa piccola scena silenziosa, il contrasto tra le sagome scure e lo sfondo luminoso trasforma i soldati in ombre in marcia: presenze eteree che avanzano con cautela. Gli ostacoli antinave, triangoli metallici conficcati nel fondale, non sono soltanto difese nemiche ma metafore delle paure collettive da superare.">Read more</button>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="img/9.jpg" alt="Guardiani delle onde" loading="lazy">
+        <figcaption>
+          <h3>Guardiani delle Onde</h3>
+          <p class="short">Truppe dietro ostacoli antinave, vigili nel fragore del mare.</p>
+          <button class="more"
+            data-full="L’immobilità apparente di queste figure è un inganno: dietro i tronchi metallici, i soldati osservano ogni movimento, pronti a esplodere in un lampo d’azione. Il contrasto tra la calma dell’acqua e la tensione umana racchiude il paradosso della guerra: quiete prima dello scatenarsi del conflitto.">Read more</button>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="img/10.png" alt="Spiaggia degli scheletri" loading="lazy">
+        <figcaption>
+          <h3>Desolazione Organizzata</h3>
+          <p class="short">Un labirinto di ostacoli metallici semisommersi.</p>
+          <button class="more"
+            data-full="La spiaggia è costellata di spuntoni di acciaio e di corpi immobili, come in un paesaggio post-apocalittico. Questi relitti evocano non solo la furia del conflitto ma anche la sua assurda geometria: file ordinate di barriere antinave testimoniano un progetto di distruzione che si integra con la natura.">Read more</button>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery-item">
+        <img src="img/11.jpg" alt="La conquista del litorale" loading="lazy">
+        <figcaption>
+          <h3>La Conquista del Litorale</h3>
+          <p class="short">Sagome esauste emergono mentre la marea si ritira.</p>
+          <button class="more"
+            data-full="In questo scatto finale, la marea si ritira lasciando dietro di sé una scacchiera di ostacoli e corpi stremati: è il segno tangibile di una vittoria conquistata a caro prezzo. Le figure, in ombra, sembrano raflessi nell’acqua come fantasmi di un’epoca che non dimentica.">Read more</button>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="container" id="capa">
+    <h2>Su Robert Capa</h2>
+    <p>
+    <strong>Origini e primi passi</strong><br>
+    Robert Capa nacque come Endre Ernő Friedmann il 22 ottobre 1913 a Budapest, in Ungheria. Appassionato di fotografia fin da ragazzo, negli anni ’30 si trasferì a Berlino dove iniziò a collaborare con riviste antifasciste. A causa delle leggi razziali lasciò la Germania nel 1934, raggiungendo Parigi.
+    </p>
+    <p>
+    <strong>La Guerra di Spagna</strong><br>
+    Fu sul fronte della Guerra Civile Spagnola (1936-39) che adottò lo pseudonimo “Robert Capa” e scattò alcune delle sue immagini più celebri, tra cui quelle di Madride e delle battaglie di Teruel. Il suo stile da “fotografo-fante” — vicino all’azione e al fronte — cambiò per sempre il fotogiornalismo di guerra.
+    </p>
+    <p>
+    <strong>D-Day e “I Magnifici Undici”</strong><br>
+    Il 6 giugno 1944 partecipò allo sbarco in Normandia, immortalando il coraggio e il caos del D-Day. Per un incidente in camera oscura sopravvissero soltanto undici dei cento scatti originali: le famose fotografie che oggi chiamiamo “The Magnificent Eleven”.
+    </p>
+    <p>
+    <strong>Magnum Photos</strong><br>
+    Nel 1947, insieme a Henri Cartier-Bresson, David “Chim” Seymour e altri colleghi, fondò l’agenzia Magnum Photos a New York: una cooperativa di fotografi indipendenti decisi a mantenere il controllo creativo sui propri lavori.
+    </p>
+    <p>
+    <strong>Altre guerre e ultimo viaggio</strong><br>
+    Dopo il D-Day documentò la liberazione di Parigi, le guerre in Medio Oriente e in Cina. Il 25 maggio 1954, mentre seguiva il conflitto in Indocina, rimase vittima di una mina antiuomo e perse la vita.
+    </p>
+    <p>
+    <em>
+      Il suo motto era: “If your pictures aren’t good enough, you’re not close enough.” 
+      Capa ci ha insegnato il valore dell’empatia e del rischio condiviso, trasformando ogni scatto in un atto di verità.
+    </em>
+    </p>
+    </section>
+
+  <section class="container" id="negatives">
+    <h2>I Negativi Perduti</h2>
+    <p>
+    Nel pomeriggio del 6 giugno 1944, dopo aver trascorso ore a seguire le truppe americane sulla spiaggia di Omaha, Capa caricò con urgenza i suoi rullini in una borsa e si diresse verso il porto di Vierville-sur-Mer. Da lì partì per l’Inghilterra, determinato a sviluppare quel prezioso materiale fotografico nel più breve tempo possibile.
+    </p>
+    <p>
+    Arrivato a Londra, affidò i rullini al laboratorio della <strong>British Empire News</strong>, dove un giovane assistente posò i negativi umidi nel vano di asciugatura di un’impalcatura scaldante. Per un tragico errore di regolazione, la temperatura superò i 40 °C: la gelatina emulsionante dei film si ammorbidì, si fuse e si attaccò alle pareti del tamburo.
+    </p>
+    <p>
+    Solo undici fotogrammi resistettero all’incendio silenzioso delle gelatine: quei grani spessi e quelle linee tremolanti, lungi dall’essere difetti, divennero la cifra emotiva delle immagini. Robert Capa, pur amareggiato, comprese che la loro imperfezione restituiva un’autenticità grezza, un testimone palpabile del caos e del dolore.
+    </p>
+    <p>
+    I «Magnificent Eleven» vennero pubblicati il giorno successivo su <i>LIFE</i> e sulle principali testate mondiali. Il pubblico vide il D-Day non come un documento distaccato, ma come un’esperienza vissuta in prima persona: l’acqua che schizza, i soldati immersi fino al petto, le armi tremolanti nella luce grigia dell’alba.
+    </p>
+    <p>
+    Col passare degli anni, Capa raccontò spesso quell’episodio come un monito sulla fragilità della memoria e dell’arte stessa: anche le testimonianze più potenti rischiano di andare perdute, eppure persino i resti più imperfetti possono diventare icone. Queste undici fotografie—nate da un disastro tecnico—rimasero per sempre simbolo del potere dell’empatia visiva, capaci di farci sentire il fragore delle bombe e il battito del cuore dei protagonisti.
+    </p>
+    </section>
+
+  <section class="container" id="timeline">
+    <h2>Timeline Interattiva</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-icon">1944</div>
+        <div class="timeline-content"><h3>6 giugno 1944</h3><p>Capa sbarca a Omaha Beach con le truppe alleate.</p></div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon">1944</div>
+        <div class="timeline-content"><h3>7 giugno 1944</h3><p>Invio delle pellicole a Londra per lo sviluppo.</p></div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon">1944</div>
+        <div class="timeline-content"><h3>8 giugno 1944</h3><p>Incidente in camera oscura: sopravvivono solo 11 scatti.</p></div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon">1947</div>
+        <div class="timeline-content"><h3>1947</h3><p>Fondazione di Magnum Photos con Cartier-Bresson.</p></div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-icon">1954</div>
+        <div class="timeline-content"><h3>1954</h3><p>Muore in Indocina mentre documenta un nuovo conflitto.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <div id="fullModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Chiudi">&times;</button>
+      <h3 id="modalTitle"></h3>
+      <p id="modalText"></p>
+    </div>
+  </div>
+
+  <button id="backToTop">↑ Top</button>
+
+  <footer>
+    <p>&copy; 2025 Capolavoro.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
